@@ -1,0 +1,67 @@
+
+
+
+
+--------------------------
+done: ---------------------------------------------
+use companion scripts in js
+test forgot and update password 
+notification on app as well as mail and whatsapp if possible
+notification
+get my notifications
+better toggling roles logic like taraveler cannot  toggle traveler
+better error handling of the adduser api like unique phone no.
+authentication -
+eviornment Variable
+    register (based on roles) done
+    login (based on roles) done
+    update password done
+    forgot password done
+    verify email done
+
+
+middleware:
+    isAdmin done
+    isLoggedIn done
+    verify middlewares done
+
+how to get the live location from client : 10s(how to get client's address as it is not server) or socket -> ask ai
+salting the password created.  done
+
+api testing using another api giving the current location
+expiring feature of the link
+
+
+travel-companion account:
+will have an notification array that will be shown for every postman request
+will have the live location for the current ride
+->>>>> simulate the taxi moving in the script
+history of the rides
+
+traveler account:
+will give the link using the app
+and the companion will get it on whatsapp or gmail also notification on app.
+
+if that travel companion is allowed by the traveler then he can access the link which will have 
+cur location and notifications array one more fuction view audit for travelers
+check if the travel companion exits or not
+only single trip possible
+flow : 
+first the traveler will generate a Trip with details ( trip id auto generated,driver name 
+hardcoded,cab number hardcoded,driverphone hardcoded,pickup location feed,drop location feed) 
+along with its own schema also trip will have a feedback array and travel companions array.
+trip will have status also
+
+then he will assign the travel companions and then they will get a whatsapp link which they can click
+and then they will be able to get the data regarding the data of the travel (for now it will be the new API Link)
+
+middle ware for if user allowed tc
+trip details -> use abstractions
+view all in admin
+
+ ----------- INTERVIEW STUFF ------------
+
+leaflet, map API -> showing map
+Geolocation API: for real time location
+socket or timeout
+
