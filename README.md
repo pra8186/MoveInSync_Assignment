@@ -1,4 +1,4 @@
-The Prject is based on the key Idea of the ride sharing platforms having three kind of users namely "Traveler" , "Traveler Companion" and "Admin".
+The Prject is based on the key Idea of the ride sharing platforms having three kind of users namely "Traveler" , "Traveler Companion" and "Admin". <br>
 Whrere each of them has different set of functionalities:
 "Traveler" ==>
 -> Can create a trip
