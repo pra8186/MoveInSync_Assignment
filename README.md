@@ -2,7 +2,7 @@ The Prject is based on the key Idea of the ride sharing platforms having three k
 Whrere each of them has different set of functionalities: <br>
 "Traveler" ==> <br>
 -> Can create a trip <br>
--> Can update his current location (If Traveler is within 1km range of the destination a  notification will be sent to his companions) <br>
+-> Can update his current location <br>
 -> Can view all his rides ongoing as well as completed  <br>
 --> Can give Feedback for his past or ongoing trip <br>
 --> Can retrieve the notifications <br>
